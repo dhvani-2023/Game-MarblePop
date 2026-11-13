@@ -1,0 +1,7 @@
+package com.puzzel.lab.marbelshort.engine
+
+/** GOLDEN DUMP ONLY: replaces the engine's unseeded global `kotlin.random.Random` with a seedable XorWow. */
+object Random {
+    var rng: kotlin.random.Random = kotlin.random.Random(0L)
+    fun nextFloat(): Float = rng.nextFloat()
+}

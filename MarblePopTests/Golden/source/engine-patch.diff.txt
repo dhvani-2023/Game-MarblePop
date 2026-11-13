@@ -1,0 +1,32 @@
+# Changes applied to COPIES of the Android engine sources for the golden traces (Android project untouched).
+# Purpose: make the engine's unseeded global kotlin.random.Random seedable (engine/Random.kt = EngineRandom.kt.txt).
+# level/*.kt are used unchanged. core/Sfx.kt (Sfx.kt.txt) is SoundManager.kt's Sfx enum without Android resource ids.
+--- engine/Entities.kt	2026-11-05 21:47:18
++++ Entities.kt	2026-11-08 12:56:23
+@@ -4,7 +4,6 @@
+ import kotlin.math.PI
+ import kotlin.math.cos
+ import kotlin.math.sin
+-import kotlin.random.Random
+ 
+ enum class MarbleState { PATH, PHYSICS, BOARDING, BELT, DROPPING, FLYING }
+ 
+--- engine/GameEngine.kt	2026-11-05 21:54:40
++++ GameEngine.kt	2026-11-08 12:56:23
+@@ -14,7 +14,6 @@
+ import kotlin.math.roundToInt
+ import kotlin.math.sin
+ import kotlin.math.sqrt
+-import kotlin.random.Random
+ 
+ enum class GameStatus { PLAYING, WON, FAILED }
+ enum class FailReason { JAM, BOMB, NO_MOVES }
+@@ -355,7 +354,7 @@
+     fun shuffleTray(): Boolean {
+         val cups = tray.flatMap { col -> col.cups.filter { it.reserved == 0 && !it.popping } }
+         if (cups.size < 2) return false
+-        val colors = cups.map { it.color }.shuffled()
++        val colors = cups.map { it.color }.shuffled(Random.rng)
+         cups.forEachIndexed { i, cup ->
+             cup.color = colors[i]
+             cup.hidden = false; cup.reveal = 1f

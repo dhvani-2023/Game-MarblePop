@@ -1,0 +1,7 @@
+package com.puzzel.lab.marbelshort.core
+
+/** GOLDEN DUMP ONLY: `Sfx` from SoundManager.kt without the Android resource ids. */
+enum class Sfx(val minGapMs: Long = 0) {
+    TAP(30), POP(40), CLACK(45), PLINK(25), CUP_COMPLETE(60), COMBO(100), WIN, FAIL, COIN(40), BUTTON(40), WHOOSH(60),
+    STAR(50), UNLOCK(80), ICE(50), BOMB_TICK(80), EXPLODE(100), SPIN_TICK(20), REWARD(100), WARNING(600),
+}

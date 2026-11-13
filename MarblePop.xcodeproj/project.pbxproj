@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8BF35026B30008F0C8944B8 /* GameKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC865F11C6803362EF7D04E7 /* GameKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CA425D27444AA2ACF6A0281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4472770644054FCA90E65FD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA20AA767FC677447191478;
+			remoteInfo = MarblePop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7708B2223C70CCF20CC49402 /* MarblePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarblePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEFDA67C154E5E549B753F1 /* MarblePopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarblePopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CCE22B493576C350BE610584 /* MarblePop */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarblePop;
+			sourceTree = "<group>";
+		};
+		80D5C1F75FAD998B847D1085 /* MarblePopTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarblePopTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1AD998FE31A34FC05A541F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF35026B30008F0C8944B8 /* GameKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B177A35409CA283C6FFEFE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A06EF1378B0335421E19F4D = {
+			isa = PBXGroup;
+			children = (
+				CCE22B493576C350BE610584 /* MarblePop */,
+				80D5C1F75FAD998B847D1085 /* MarblePopTests */,
+				0F693A4D7E5A30EB75A323BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F693A4D7E5A30EB75A323BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7708B2223C70CCF20CC49402 /* MarblePop.app */,
+				CEEFDA67C154E5E549B753F1 /* MarblePopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA20AA767FC677447191478 /* MarblePop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B518381EAEA888CEFA7264D;
+			buildPhases = (
+				B7A78520EDBEB4036987287E /* Sources */,
+				C1AD998FE31A34FC05A541F8 /* Frameworks */,
+				AE5D0F7FEE916B8243BD4031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CCE22B493576C350BE610584 /* MarblePop */,
+			);
+			name = MarblePop;
+			packageProductDependencies = (
+				EC865F11C6803362EF7D04E7 /* GameKit */,
+			);
+			productName = MarblePop;
+			productReference = 7708B2223C70CCF20CC49402 /* MarblePop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6588603657B000C4F94A039F /* MarblePopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1EFB4E69AAB247DC363A9F;
+			buildPhases = (
+				D6E242BF7BA73E0121241117 /* Sources */,
+				B177A35409CA283C6FFEFE85 /* Frameworks */,
+				611C7624F14E3712B49D0AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E954001BA126251A6437E03 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				80D5C1F75FAD998B847D1085 /* MarblePopTests */,
+			);
+			name = MarblePopTests;
+			packageProductDependencies = (
+			);
+			productName = MarblePopTests;
+			productReference = CEEFDA67C154E5E549B753F1 /* MarblePopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4472770644054FCA90E65FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					FCA20AA767FC677447191478 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					6588603657B000C4F94A039F = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = FCA20AA767FC677447191478;
+					};
+				};
+			};
+			buildConfigurationList = 7F254749CB856F2E9F013E3F;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A06EF1378B0335421E19F4D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EC0B7555FAEA25D079AC3410 /* XCLocalSwiftPackageReference "Packages/GameKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0F693A4D7E5A30EB75A323BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA20AA767FC677447191478 /* MarblePop */,
+				6588603657B000C4F94A039F /* MarblePopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5D0F7FEE916B8243BD4031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611C7624F14E3712B49D0AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7A78520EDBEB4036987287E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E242BF7BA73E0121241117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E954001BA126251A6437E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA20AA767FC677447191478 /* MarblePop */;
+			targetProxy = 7CA425D27444AA2ACF6A0281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D3C5B1F1D0B55514418CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0217960026D4770580A4E450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB9D2E7ADE9D0C49FA4C0708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Marble Pop";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.marbelshort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		877BCDCC08374578BA7FDC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Marble Pop";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.marbelshort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		197BBB6A2EB0E78768339DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.marbelshort.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarblePop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarblePop";
+			};
+			name = Debug;
+		};
+		F2A18F743711E298D397DEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.marbelshort.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarblePop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarblePop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F254749CB856F2E9F013E3F /* Build configuration list for PBXProject "MarblePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D3C5B1F1D0B55514418CE7 /* Debug */,
+				0217960026D4770580A4E450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B518381EAEA888CEFA7264D /* Build configuration list for PBXNativeTarget "MarblePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9D2E7ADE9D0C49FA4C0708 /* Debug */,
+				877BCDCC08374578BA7FDC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1EFB4E69AAB247DC363A9F /* Build configuration list for PBXNativeTarget "MarblePopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197BBB6A2EB0E78768339DB6 /* Debug */,
+				F2A18F743711E298D397DEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		EC0B7555FAEA25D079AC3410 /* XCLocalSwiftPackageReference "Packages/GameKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/GameKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC865F11C6803362EF7D04E7 /* GameKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4472770644054FCA90E65FD1 /* Project object */;
+}
